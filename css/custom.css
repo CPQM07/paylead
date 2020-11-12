@@ -41,6 +41,18 @@ Card Section Background
   margin: 2rem 0px 2rem 0px;
 }
 
-.demo-button {
+.my-2rem {
   margin: 2rem 0px 2rem 0px;
+}
+
+.my-4rem {
+  margin: 4rem 0px 4rem 0px;
+}
+
+.has-light-background {
+  background-color: rgba(79, 161, 143, 0.1) !important;
+}
+
+.align-self-end {
+  align-self: flex-end;
 }
