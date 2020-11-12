@@ -53,6 +53,10 @@ Card Section Background
   background-color: rgba(79, 161, 143, 0.1) !important;
 }
 
+.has-light2-background {
+  background-color: rgba(79, 161, 143, 0.05) !important;
+}
+
 .align-self-end {
   align-self: flex-end;
 }
