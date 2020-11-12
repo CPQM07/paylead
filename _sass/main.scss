@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+// Set your brand colors
+$green: #4fa18f;
+$green-light: #5cd3a9;
+$grey: #626262;
+
+// Update Bulma's global variables
+$family-sans-serif: "Poppins", sans-serif;
+$primary: $green;
+$primary-light: $green-light;
+$grey: $grey;
+
+// Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Navbar
+$navbar-height: 4rem;
+$navbar-padding-vertical: 2rem;
+$navbar-item-img-max-height: 4rem;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma";

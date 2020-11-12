@@ -1,0 +1,46 @@
+nav {
+  padding-top: 20px;
+  max-height: 50px;
+}
+/*
+Card Section Background 
+*/
+.has-primary-light-background {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(79, 161, 143, 0.1) 50%,
+    rgba(79, 161, 143, 0.1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(79, 161, 143, 0.1) 50%,
+    rgba(79, 161, 143, 0.1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(79, 161, 143, 0.1) 50%,
+    rgba(79, 161, 143, 0.1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#fdbb34", GradientType=1);
+}
+
+.feature-card {
+  min-height: 358px;
+  border-radius: 25px;
+}
+
+.feature-card,
+.card-image {
+  margin: 2rem 0px 2rem 0px;
+}
+
+.demo-button {
+  margin: 2rem 0px 2rem 0px;
+}
